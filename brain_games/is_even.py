@@ -1,5 +1,7 @@
-import prompt
 import random
+
+import prompt
+
 
 def is_even(name):
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -9,7 +11,7 @@ def is_even(name):
         print(f'Question: {number}')
         answer = prompt.string('Your answer: ')
         if number % 2 == 0:
-            if answer =='yes':
+            if answer == 'yes':
                 print('Correct!')
                 correct_answers += 1
             else:
