@@ -3,7 +3,7 @@ import random
 task = 'What is the result of the expression?'
 
 
-def expression_generator():
+def calc():
     number1 = random.randint(0, 100)
     number2 = random.randint(0, 100)
     sign = random.choice(['+', '-', '*'])

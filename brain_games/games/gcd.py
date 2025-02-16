@@ -3,7 +3,7 @@ import random
 task = 'Find the greatest common divisor of given numbers.'
 
 
-def expression_generator():
+def gcd():
     number1 = random.randint(0, 100)
     number2 = random.randint(0, 100)
     expression = f'{number1} {number2}'
