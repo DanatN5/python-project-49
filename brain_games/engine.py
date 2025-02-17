@@ -13,11 +13,11 @@ def engine(name, task, game):
             print('Correct!')
             correct_answers += 1
         else:
-            print(f'"{answer}" is wrong answer ;(. Correct answer was "{result}".')
+            print(f'"{answer}" is wrong answer ;(.' 
+                  f'Correct answer was "{result}".')
             break
         
     if correct_answers == 3:
         print(f'Congratulations, {name}!')
     else:
         print(f"Let's try again, {name}!")
-

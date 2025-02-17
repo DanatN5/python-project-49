@@ -11,3 +11,7 @@ https://asciinema.org/a/Swn6QBzPXA1HbjM0jRW3m82i0
 
 This is how you win (brain-gcd):
 https://asciinema.org/a/QnysJqHCs7VH4nB5D5Zyp62en
+
+
+This is how you win (brain-progression):
+https://asciinema.org/a/Z9r45bDHGwMm86XEAj3mM48IR
