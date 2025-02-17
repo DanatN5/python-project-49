@@ -15,3 +15,7 @@ https://asciinema.org/a/QnysJqHCs7VH4nB5D5Zyp62en
 
 This is how you win (brain-progression):
 https://asciinema.org/a/Z9r45bDHGwMm86XEAj3mM48IR
+
+
+This is how you win (brain-prime):
+https://asciinema.org/a/ZxEmsINVryoyV1sSRbjuoUjz0
