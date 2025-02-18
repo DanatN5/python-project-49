@@ -1,13 +1,13 @@
 import random
 
-task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'  # задание
 
 
 def prime():
-    number = random.randint(1, 100)
+    number = random.randint(1, 100)  # число для задания
     expression = f'{number}'
     result = ''
-    count = 0
+    count = 0   # счетчик делителей
     for i in range(1, number + 1):
         if number % i == 0:
             count += 1

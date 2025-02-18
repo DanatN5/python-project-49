@@ -1,9 +1,9 @@
 import prompt
 
 
-def engine(name, task, game):
-    print(task)
-    correct_answers = 0
+def engine(NAME, TASK, game):
+    print(TASK)
+    correct_answers = 0  # счетчик корректных ответов
     while correct_answers < 3:
         expression, result = game()
         print(f'Question: {expression}')
@@ -18,6 +18,6 @@ def engine(name, task, game):
             break
         
     if correct_answers == 3:
-        print(f'Congratulations, {name}!')
+        print(f'Congratulations, {NAME}!')
     else:
-        print(f"Let's try again, {name}!")
+        print(f"Let's try again, {NAME}!")

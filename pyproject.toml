@@ -1,7 +1,11 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "Содержит 5 арифметических игр: Проверка на четность, Калькулятор, Простое ли число?, НОД, Арифметическая прогрессия"
+authors = [
+  {name = "Danat", email = "danat-1998@mail.ru"},
+  {name = "Hexlet", site = "hexlet.io"},
+]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
