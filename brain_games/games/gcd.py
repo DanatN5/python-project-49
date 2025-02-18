@@ -1,15 +1,22 @@
 import random
 
-TASK = 'Find the greatest common divisor of given numbers.'  # задание
+# задание
+TASK = 'Find the greatest common divisor of given numbers.'
 
 
 def gcd():
-    number1 = random.randint(0, 100)  # число для задания
-    number2 = random.randint(0, 100)  # число для задания
+    # первое число для задания
+    number1 = random.randint(0, 100)
+    # второе число для задания
+    number2 = random.randint(0, 100)
+
     expression = f'{number1} {number2}'
     result = 0
-    m = max(number1, number2)  # для использования алгоритма Евклида нужно узнать максимальное
-    n = min(number1, number2)  # и минимальное число
+
+    # для использования алгоритма Евклида нужно узнать максимальное
+    # и минимальное число
+    m = max(number1, number2)
+    n = min(number1, number2)
     while n > 0:
         m, n = n, m % n
         result = m

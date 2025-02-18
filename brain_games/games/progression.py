@@ -1,16 +1,22 @@
 import random
 
-TASK = 'What number is missing in the progression?'  # задание
+# задание
+TASK = 'What number is missing in the progression?'
 
 
 def progression():
-    step = random.randint(1, 5)  # шаг прогрессии
-    numbers_range = [i for i in range(0, 100, step)]  # диапазон чисел для прогрессии
-    
-    progression_start = random.randint(0, 14)  # начало прогрессии
-    progression_count = random.randint(5, 12)  # количество чисел в прогрессии
-    progression_stop = progression_start + progression_count  # конец прогрессии
-    progression = numbers_range[progression_start:progression_stop]  # сама прогрессия
+    # шаг прогрессии
+    step = random.randint(1, 5)
+    # диапазон чисел для прогрессии
+    numbers_range = [i for i in range(0, 100, step)]
+    # начало прогрессии
+    progression_start = random.randint(0, 14)
+    # количество чисел в прогрессии
+    progression_count = random.randint(5, 12)
+    # конец прогрессии
+    progression_stop = progression_start + progression_count
+    # сама прогрессия
+    progression = numbers_range[progression_start:progression_stop]
 
     result = random.choice(progression)
     expression = ''

@@ -1,12 +1,17 @@
 import random
 
-TASK = 'What is the result of the expression?'  # задание
+# задание
+TASK = 'What is the result of the expression?'
 
 
 def calc():
-    number1 = random.randint(0, 100)  # число для задания
-    number2 = random.randint(0, 100)  # число для задания
-    sign = random.choice(['+', '-', '*'])  # знак для задания
+    # первое число для задания
+    number1 = random.randint(0, 100)
+    # второе число для задания
+    number2 = random.randint(0, 100)
+    # знак для задания
+    sign = random.choice(['+', '-', '*'])
+    
     expression = f'{number1} {sign} {number2}'
     result = eval(expression)
     return (expression, result)

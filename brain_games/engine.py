@@ -3,7 +3,8 @@ import prompt
 
 def engine(NAME, TASK, game):
     print(TASK)
-    correct_answers = 0  # счетчик корректных ответов
+    # счетчик корректных ответов
+    correct_answers = 0
     while correct_answers < 3:
         expression, result = game()
         print(f'Question: {expression}')

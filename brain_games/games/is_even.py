@@ -1,10 +1,13 @@
 import random
 
-TASK = 'Answer "yes" if the number is even, otherwise answer "no".'  # задание
+# задание
+TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even():
-    number = random.randint(0, 100)  # число для задания
+    # число для задания
+    number = random.randint(0, 100)
+
     expression = f'{number}'
     result = ''
     if number % 2 == 0:
