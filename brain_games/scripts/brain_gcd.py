@@ -1,13 +1,13 @@
 from brain_games.engine import engine
-from brain_games.games.gcd import TASK, gcd
+from brain_games.games.gcd import task, gcd
 from brain_games.greeting import welcome_user
 
 
 def main():
     
-    NAME = welcome_user()
+    name = welcome_user()
 
-    engine(NAME, TASK, gcd)
+    engine(name, task, gcd)
 
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 import random
 
 # задание
-TASK = 'What is the result of the expression?'
+task = 'What is the result of the expression?'
 
 
 def calc():
@@ -15,7 +15,6 @@ def calc():
     expression = f'{number1} {sign} {number2}'
     result = eval(expression)
     return (expression, result)
-
 
    
 

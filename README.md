@@ -1,5 +1,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/DanatN5/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/DanatN5/python-project-49/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1c0a4b5504ff1f8a0a93/maintainability)](https://codeclimate.com/github/DanatN5/python-project-49/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/1c0a4b5504ff1f8a0a93/test_coverage)](https://codeclimate.com/github/DanatN5/python-project-49/test_coverage)
+
 
 
 Содержит 5 арифметических игр: 

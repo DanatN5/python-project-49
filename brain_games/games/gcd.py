@@ -1,7 +1,7 @@
 import random
 
 # задание
-TASK = 'Find the greatest common divisor of given numbers.'
+task = 'Find the greatest common divisor of given numbers.'
 
 
 def gcd():
@@ -15,9 +15,9 @@ def gcd():
 
     # для использования алгоритма Евклида нужно узнать максимальное
     # и минимальное число
-    m = max(number1, number2)
-    n = min(number1, number2)
-    while n > 0:
-        m, n = n, m % n
-        result = m
+    max_number = max(number1, number2)
+    min_nunber = min(number1, number2)
+    while min_nunber > 0:
+        max_number, min_nunber = min_nunber, max_number % min_nunber
+        result = max_number
     return (expression, result)

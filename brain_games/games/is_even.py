@@ -1,7 +1,7 @@
 import random
 
 # задание
-TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
+task = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even():
