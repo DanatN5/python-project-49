@@ -2,9 +2,9 @@ import prompt
 from brain_games.greeting import welcome_user
 
 
-def engine(task, game):
+def engine(TASK, game):
     name = welcome_user()
-    print(task)
+    print(TASK)
     # счетчик корректных ответов
     correct_answers = 0
     while correct_answers < 3:

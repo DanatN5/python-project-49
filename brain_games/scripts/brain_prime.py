@@ -1,10 +1,10 @@
 from brain_games.engine import engine
-from brain_games.games.prime import task, prime
+from brain_games.games.prime import TASK, prime
 
 
 def main():
    
-    engine(task, prime)
+    engine(TASK, prime)
 
 
 if __name__ == "__main__":

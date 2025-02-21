@@ -1,7 +1,7 @@
 import random
 
 # задание
-task = 'What is the result of the expression?'
+TASK = 'What is the result of the expression?'
 
 
 def calc():
